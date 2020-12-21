@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Add_Sprint_Service"
+  description: "Adding new Spring boot service"
+  annotations:
+    github.com/project-slug: "ThoughtWorks-DPS/Test_add_New_project"
+    backstage.io/techdocs-ref: github:https://github.com/ThoughtWorks-DPS/Test_add_New_project
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "SuhasiniTW"
